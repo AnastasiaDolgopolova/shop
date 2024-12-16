@@ -40,7 +40,7 @@
                                 <label for="inputTitle" class="col-sm-2 col-form-label">Title</label>
                                 <div class="col-sm-10">
                                     <input type="text" name="title" value="{{ $category->title }}" class="form-control"
-                                        id="inputTitle" placeholder="Email">
+                                        id="inputTitle" placeholder="Title">
                                 </div>
                             </div>
                         </div>

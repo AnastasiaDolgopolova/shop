@@ -20,3 +20,7 @@ Route::get('/', [App\Http\Controllers\Main\IndexController::class, 'index'])->na
 // });
 
 Route::resource('categories', App\Http\Controllers\CategoryController::class);
+
+Route::resource('tags', App\Http\Controllers\TagController::class);
+
+Route::resource('colors', App\Http\Controllers\ColorController::class);
