@@ -14,3 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [App\Http\Controllers\Main\IndexController::class, 'index'])->name('main.index');
+
+// Route::group(['prefix' => 'categories'], function () {
+//     Route::resource('categories', App\Http\Controllers\CategoryController::class);
+// });
+
+Route::resource('categories', App\Http\Controllers\CategoryController::class);
